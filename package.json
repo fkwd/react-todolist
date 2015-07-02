@@ -1,0 +1,8 @@
+{
+  "name": "rect-todolist",
+  "version": "0.0.1",
+  "dependencies": {
+    "jasmine": "^2.3.1",
+    "karma": "^0.12.37"
+  }
+}
