@@ -1,0 +1,13 @@
+.list-group-item {
+    padding: 0 10px;
+    border: none;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.glyphicon-resize-full, .glyphicon-resize-small {
+    cursor: pointer;
+}
