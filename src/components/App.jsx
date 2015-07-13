@@ -4,7 +4,10 @@ var App = React.createClass({
     },
     handleAddButtonClick: function (e) {
         e.preventDefault();
-        this.setState({items: this.state.items.concat({items: [], title: 'New todolist'})});
+        this.setState({items: this.state.items.concat({
+            items: [],
+            title: 'Todolist #' + (this.state.items.length + 1)
+        })});
     },
     render: function () {
         return (
